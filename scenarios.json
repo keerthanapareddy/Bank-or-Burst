@@ -1,0 +1,74 @@
+{
+  "emergency": [
+    {
+      "prompt": "Winter is coming. It's time to buy a new coat.",
+      "buttons": [
+        {
+          "description" : "There's limited stock available on a branded trench coat. Go for it!",
+          "cost" : 300
+        },
+        {
+          "description": "Buy a generic one.",
+          "cost" : 100
+        }
+      ]
+    },
+    {
+      "prompt": "You twisted your ankle.",
+      "buttons": [
+        {
+          "description" : "Go to the doctor.",
+          "cost" : 100
+        },
+        {
+          "description": "Buy some pain killers and walk it off.",
+          "cost" : 30
+        }
+      ]
+    }
+  ]
+    ,
+  "expenses": [
+    {
+      "prompt": "You need new boots to replace your salt-stained ones from last year",
+      "buttons": [
+        {
+          "description" : "I can finally buy the UGGs I've been eyeing all year",
+          "cost" : 160
+        },
+        {
+          "description": "I'm off to Macy's",
+          "cost" : 60
+        }
+      ]
+    },
+    {
+      "prompt": "You made a pact with your friends to go bar hopping this weekend. After all you are still young and its New York",
+      "buttons": [
+        {
+          "description" : "I can't go back on my word!",
+          "cost" : 50
+        },
+        {
+          "description": "I was drunk when I made the pact. I'm gonna ditch and chill at home with a glass of wine",
+          "cost" : 20
+        }
+      ]
+    }
+  ],
+  "bonus": [
+    {
+      "prompt": "Your friend invited you for a poker game. The buy in is $50. You can potentially win $200. Would you like to play the game?",
+      "buttons": [
+        {
+          "description" : "Count me in",
+          "cost" : 50
+        },
+        {
+          "description": "I'll pass",
+          "cost" : 0
+        }
+      ]
+    }
+  ]
+}

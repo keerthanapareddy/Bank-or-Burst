@@ -1,0 +1,187 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-color: #353558;
+}
+
+.button {
+  background:  transparent;
+  border: 1px solid: #3EDB83;
+  border-color: #3EDB83;
+  color: white;
+  padding: 17px 25px;
+  font-size: 16px;
+  border-radius: 50px;
+  outline: none;
+}
+
+#goal {
+  display: block;
+  width: 80%;
+}
+
+#dice {
+  margin-left: 19%;
+  background:  #3EDB83;
+  border: 1px solid: #3EDB83;
+  padding-left: 2%;
+}
+
+/* .goals {
+  display: inline-block;
+  width: 15%;
+  margin: 2% 5%;
+  color: white;
+} */
+
+.goals .button {
+  /* align: center; */
+  /* display: block; */
+  width: 40%;
+  margin: 1% 25%;
+  color: white;
+  /* -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s; */
+
+
+
+}
+
+.categories h2 {
+  display: inline-block;
+  text-align: left;
+  /* color: white; */
+  margin: 1.5% 3% 1.5% 0%;
+}
+
+ h2 {
+   font-size: 19px;
+   color: white;
+   /* text-align: left; */
+   line-height: 2;
+   font-weight: lighter;
+}
+
+h1 {
+  font-size: 23px;
+  color: white;
+  margin-bottom: 2%;
+   line-height: 2;
+}
+
+.categories .button {
+  display: inline-block;
+  text-align: center;
+  margin: 0% 0.3%;
+  outline: none;
+}
+
+/* .budget .button {
+  display: inline-block;
+  /* text-align: left; */
+  /* margin-left: 10% 0.3%;
+  outline: none;
+} */
+
+.pressed {
+  display: inline-block;
+  background-color: #3EDB83;
+  border: #3EDB83;
+  margin: 1%;
+  font-size: 16px;
+  outline: none;
+  padding: 17px 25px;
+}
+
+.pressed .button {
+  color: #3EDB83;
+}
+
+.budget {
+  display: inline;
+  text-align: left;
+  color: white;
+  width: 25%;
+}
+
+.budget h2 {
+  display: block;
+  margin: 2% 0 0 10%;
+  padding-left: 10%;
+  color: white;
+}
+
+#spending {
+    margin: 12% 0 0 10%;
+}
+
+.budget .button {
+  display: block;
+  margin: 3% 0 0 5%;
+  color: white;
+  outline: none;
+  padding-left: 10%;
+  /* width: 10px; */
+}
+
+.subbutton{
+  background:  #3EDB83;
+  border: 1px solid: #3EDB83;
+  border-color: #3EDB83;
+  color: white;
+  padding: 17px 35px;
+  font-size: 23px;
+  font-weight: 600px;
+  border-radius: 50px;
+  outline: none;
+}
+
+
+@keyframes fade-in {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.modal {
+  position: absolute;
+  color: #404040;
+  top: 0%;
+  left: 0%;
+  background-color: #FAF4E7;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  animation: fade-in 0.5s ease-in-out 0.75s forwards;
+}
+
+.modal h2{
+  color: #404040;
+  font-weight: 900;
+  font-size: 19px
+}
+
+.option {
+  display: inline-block;
+  width: 40%;
+  color: #404040;
+}
+
+.option button{
+  background:  #3EDB83;
+  border: 1px solid: #3EDB83;
+  border-color: #3EDB83;
+  color: white;
+}
+
+canvas {
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  background-color: transparent;
+}
+
+.board{
+  padding-left: 10%;
+}
